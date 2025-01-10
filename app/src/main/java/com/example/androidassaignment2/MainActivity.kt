@@ -45,9 +45,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openStudentDetails(index: Int) {
-//        val intent = Intent(this, StudentDetailsActivity::class.java)
-//        intent.putExtra("STUDENT_INDEX", index)
-//        startActivity(intent)
+        val intent = Intent(this, StudentDetailsActivity::class.java)
+        intent.putExtra("STUDENT_INDEX", index)
+        startActivity(intent)
     }
 
     private fun openAddStudentActivity() {
